@@ -8,7 +8,7 @@ import hug
 def consult(query):
 	client = MongoClient()
 	db = client.leaks
-	collection = db.leaked
+	collection = db.dropbox
 	status = collection.find_one({"email" : query}, {"_id" : 0, "email" : 0})
 	retorno = status["password"].strip()
 	return retorno
