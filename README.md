@@ -11,7 +11,7 @@ I'm open source, just follow the link:
 
 https://github.com/warflop/Leaked_Bot
 
-1. How to use
+How to use
 
 Send this command to verify a e-mail.
 
@@ -21,8 +21,10 @@ Send this command to verify a e-mail.
 My commands
 
 /pwn3d email@email.com - Check if your e-mail has been leaked.
+/count - Amount of data we have in our database.
 /about - Show more information about DEV and how to help.
 /help - Understand ours commands.
+
 
 Call me on Telegram:
 
